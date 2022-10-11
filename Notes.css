@@ -1,0 +1,33 @@
+body {
+    width:1200px;
+    margin: 0 auto;
+  }
+  .heading {
+    text-align:center;
+  }
+  #addTxt {
+    width : 700px;
+    height: 150px;
+    border: 5px inset black;
+    border-radius: 15px;
+    padding:5px;
+  }
+  .content {
+    display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .addBtn {
+    display: flex;
+      justify-content: center;
+      align-items: center;
+    padding:10px;
+  }
+  #addBtn{
+    background-color:coral;
+    border: 1.5px solid black;
+    border-radius:15px;
+  }
+  #addBtn:active {
+    background-color:pink;
+  }
