@@ -1,1 +1,0 @@
-A simple minimalistic Notes taking web app
