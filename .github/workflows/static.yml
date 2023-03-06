@@ -24,8 +24,8 @@ jobs:
   # Single deploy job since we're just deploying
   deploy:
     environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      name: Note Taking App
+      url: ${{ https://github.com/AmanKumarVerma11/Notes-Web-App.github.io.git }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
