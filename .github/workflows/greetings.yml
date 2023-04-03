@@ -12,5 +12,35 @@ jobs:
     - uses: actions/first-interaction@v1
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: "Message that will be displayed on users' first issue"
-        pr-message: "Message that will be displayed on users' first pull request"
+        issue-message: "Hello and welcome to GitHub! 👋
+                        Thank you for opening your first issue in this repository. We appreciate your contribution and we hope you enjoy using GitHub.
+
+                        Before we can help you with your issue, please make sure you have followed these steps:
+
+                        [ ] Search for existing issues to avoid creating duplicates.
+                        [ ] Provide a clear and concise title that summarizes your issue.
+                        [ ] Write a detailed description that explains what the issue is about, what you expected to happen, and what actually happened.
+                        [ ] Include screenshots or code snippets if applicable.
+                        [ ] Add relevant labels to categorize your issue (e.g. bug, enhancement, question).
+                        [ ] Add a milestone to track the progress of your issue (e.g. v1.0, v2.0).
+                        [ ] Assign the issue to yourself or someone else who can work on it.
+                        [ ] Add the issue to a project board if you are using one.
+                        Once you have completed these steps, please submit your issue and wait for a response from the maintainers or the community. We will try our best to help you as soon as possible.
+
+                        Thank you for using GitHub and happy coding! 😊"
+        pr-message: "Hello and congratulations on opening your first pull request on GitHub! 🎉
+                    Thank you for contributing to this project. We appreciate your effort and we hope you enjoy using GitHub.
+                    
+                    Before we can review and merge your pull request, please make sure you have followed these steps:
+                    
+                    [ ] Write a clear and concise title that summarizes your changes.
+                    [ ] Write a detailed description that explains what the pull request is about, what problem it solves, and how it implements the solution.
+                    [ ] Link the pull request to an issue if there is one. Use keywords like “fixes” or “closes” to automatically close the issue when the pull request is merged. For more information, see “Linking a pull request to an issue”.
+                    [ ] Add relevant labels to categorize your pull request (e.g. bug, enhancement, documentation).
+                    [ ] Add a milestone to track the progress of your pull request (e.g. v1.0, v2.0).
+                    [ ] Request a review from someone who can approve and merge your pull request. You can also @mention teams or individuals who might be interested in your changes.
+                    [ ] Include any screenshots or code snippets if applicable.
+                    [ ] Run any tests or checks that are required for your project.
+                    Once you have completed these steps, please wait for feedback from the reviewers or the community. We will try our best to help you as soon as possible.
+                    
+                    Thank you for using GitHub and happy coding! 😊" 
