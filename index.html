@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Notes App</title>
-    <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="home.css">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KM332823QH"></script>
@@ -16,28 +15,20 @@
     
       gtag('config', 'G-KM332823QH');
     </script>
-    <script src="home.js"></script>
 </head>
 <body>
-    <div class="container">
     <h1 class="heading">My Notes App</h1>
-      <div class="row">
-        <div class="content">
-          <textarea id="addTxt" placeholder="Enter text...."></textarea>
-          </textarea>
-        </div>
-      </div>
-      <div class="row">
-          <div class="addBtn">
-            <button id="addBtn">Add note</button>
-          </div>
-      </div>
-        <hr>
-      <div class="row">
-        <h3 class="heading">Saved Notes</h3>
-        <div id="notes">
-        </div>
-      </div>
+    <div class="content">
+      <textarea id="addTxt" placeholder="Enter Text.....">
+      </textarea>
     </div>
+      <div class="addBtn">
+        <button id="addBtn">Add note</button>
+      </div>
+    <hr>
+     <h3 class="heading">Saved Notes</h3>
+    <div id="notes">
+    </div>
+    <script src="home.js"></script>
 </body>  
 </html>
